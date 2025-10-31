@@ -1,0 +1,133 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 1,
+        "username": "john_doe",
+        "profile_pic": "https://i.pravatar.cc/150?img=1"
+      },
+      "image": "https://picsum.photos/500/500?random=1",
+      "caption": "Loving this sunset 🌅",
+      "likes": 12,
+      "comments": [
+        {
+          "user": "jane_smith",
+          "comment": "Amazing view!"
+        },
+        {
+          "user": "alex_99",
+          "comment": "So pretty 😍"
+        }
+      ],
+      "timestamp": "2025-10-28T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 2,
+        "username": "jane_smith",
+        "profile_pic": "https://i.pravatar.cc/150?img=2"
+      },
+      "image": "https://picsum.photos/500/500?random=2",
+      "caption": "Exploring the mountains 🏔️",
+      "likes": 8,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Looks like an adventure!"
+        }
+      ],
+      "timestamp": "2025-10-27T12:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 3,
+        "username": "alex_99",
+        "profile_pic": "https://i.pravatar.cc/150?img=3"
+      },
+      "image": "https://picsum.photos/500/500?random=3",
+      "caption": "Morning workout done! 💪",
+      "likes": 5,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Keep it up!"
+        },
+        {
+          "user": "jane_smith",
+          "comment": "You're inspiring!"
+        }
+      ],
+      "timestamp": "2025-10-28T06:30:00Z"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "john_doe",
+    "profile_pic": "https://i.pravatar.cc/150?img=1"
+  },
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "profile_pic": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "profile_pic": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "3",
+      "username": "alex_99",
+      "profile_pic": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "4",
+      "username": "max-jin",
+      "profile_pic": "https://i.pravatar.cc/150?img=3"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 1,
+        "username": "john_doe",
+        "profile_pic": "https://i.pravatar.cc/150?img=1"
+      },
+      "image": "https://picsum.photos/500/500?random=1"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 2,
+        "username": "jane_smith",
+        "profile_pic": "https://i.pravatar.cc/150?img=2"
+      },
+      "image": "https://picsum.photos/500/500?random=2"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 3,
+        "username": "alex_99",
+        "profile_pic": "https://i.pravatar.cc/150?img=3"
+      },
+      "image": "https://picsum.photos/500/500?random=3"
+    }
+  ],
+  "followers": [
+    {
+      "id": "3",
+      "username": "alex_99",
+      "profile_pic": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "1",
+      "username": "john_doe"
+    }
+  ]
+}
